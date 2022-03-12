@@ -1,0 +1,15 @@
+package STCsv;
+
+message EntityItem
+{
+	 optional int32 mID = 1;
+	 optional string mName = 2;
+	 optional string mDesc = 3;
+	 optional float mSpeed = 4;
+}
+
+message Entity
+{
+	 repeated EntityItem mSzDataList = 1;
+}
+

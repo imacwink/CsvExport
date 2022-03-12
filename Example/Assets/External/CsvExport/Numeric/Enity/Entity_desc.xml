@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ascii"?>
+<CsvExport class="Entity">
+	<Field key="ID" value="mID" type="int32" filed = "1"/>
+	<Field key="名字" value="mName" type="string" filed = "2"/>
+	<Field key="描述" value="mDesc" type="string" filed = "3"/>
+	<Field key="速度" value="mSpeed" type="float" filed = "4"/>
+</CsvExport>
