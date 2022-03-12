@@ -90,7 +90,7 @@ mv ../../External/CsvExport/GenCode/STRes.proto ../../External/CsvExport/Proto/S
 	<Field key="名字" value="mName" type="string" filed = "2"/>
 	<Field key="描述" value="mDesc" type="string" filed = "3"/>
 	<Field key="速度" value="mSpeed" type="float" filed = "4"/>
-     <!-- Note here, if your CSV is in UTF8 format, you need to add this option, otherwise it defaults to GBK. -->
+     	<!-- Note here, if your CSV is in UTF8 format, you need to add this option, otherwise it defaults to GBK. -->
 	<Encode value = "UTF8" />
 </CsvExport>
 ```
