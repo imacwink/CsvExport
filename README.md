@@ -99,8 +99,8 @@ mv ../../External/CsvExport/GenCode/STRes.proto ../../External/CsvExport/Proto/S
 
 ```console
 macwink$ sh export.sh
-Convert file to bin: /Users/macwink/workspace/work/unity/CsvExport/Example/Assets/External/CsvExport/Numeric/Enity/Entity.csv
-Createting file: /Users/macwink/workspace/work/unity/CsvExport/Example/Assets/External/CsvExport/GenCode/STCsvDataEnum.cs
+Convert file to bin: ../CsvExport/Example/Assets/External/CsvExport/Numeric/Enity/Entity.csv
+Createting file: ../CsvExport/Example/Assets/External/CsvExport/GenCode/STCsvDataEnum.cs
 Done
 ```
 ### Step.6
