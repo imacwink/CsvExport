@@ -74,11 +74,12 @@ mv ../../External/CsvExport/GenCode/STRes.proto ../../External/CsvExport/Proto/S
 ### Step.3
 > You only need to configure the configuration table, first build the csv table, as follows:
 
-| ##这是一个测试 | ID | int    | 1     | 2     |
-|----------|----|--------|-------|-------|
-|          | 名字 | string | 谢大脚   | 赵四    |
-|          | 描述 | string | 我是谢大脚 | 我不是找死 |
-|          | 速度 | float  | 3.3   | 3.4   |
+| ##这是一个测试 |        |        |       |
+|----------|--------|--------|-------|
+| ID       | 名字     | 描述     | 速度    |
+| int      | string | string | float |
+| 1        | 谢大脚    | 我是谢大脚  | 3.3   |
+| 2        | 赵四     | 我不是找死  | 3.4   |
 
 ### Step.4
 > Next you need to configure the description file for automatic code generation, as follows:
